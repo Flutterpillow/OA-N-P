@@ -1,0 +1,20 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    int e;
+    int x;
+    int y;
+    float z;
+    cout<<"Введите значение e";
+    cin>>e;
+    cout<<"Введите значение x";
+    cin>>x;
+    cout<<"Введите значение y";
+    cin>>y;
+    z= pow(e,-x)-cos(x)+sin(2*x*y);
+    cout<<z;
+    return 0;
+}
