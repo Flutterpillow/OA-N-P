@@ -1,3 +1,5 @@
+#include <iostream>
+
 int a;           //1 глобальная перерменная a
 
 int maain()
